@@ -1,0 +1,105 @@
+/* CSS */
+
+main {
+    font-family: Arial, sans-serif;
+    background-color: rgb(255, 255, 255);
+    height: 600px;
+    width: 1200px;
+    margin-left: 150px;
+    color: #d11f81;
+}
+
+.anhdn {
+    position: absolute;
+    right: -200px;
+    ;
+    top: -50px;
+}
+
+.dangnhap {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    animation: fade-in 1s ease-in-out;
+    margin-left: -190px;
+    color: rgb(255, 0, 255);
+}
+
+section {
+    position: relative;
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group>input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #f217eb;
+    border-radius: 4px;
+}
+
+.forgot-password {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: #d111dc;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 200px;
+}
+
+.button:hover {
+    background-color: #2fe0f8;
+}
+
+input {
+    transition: transform 0.3s;
+}
+
+input:hover {
+    transform: scale(1.2);
+    /* Các hiệu ứng khác bạn muốn áp dụng khi hover vào */
+    background-color: #d111dc;
+    color: #fff;
+}
+
+input:active {
+    transform: scale(0.8);
+    /* Các hiệu ứng khác bạn muốn áp dụng khi bấm vào */
+    background-color: #00de34;
+    color: #000000;
+}
+
+h2 {
+    color: rgb(195, 35, 231);
+}
